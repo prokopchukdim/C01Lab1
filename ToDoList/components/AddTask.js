@@ -15,7 +15,7 @@ const AddTask = ({ onAddTask }) => {
     return (
         <View style = {styles.addTodoForm}>
             <TextInput style = {styles.input} value = {title} onChangeText = {setTitle}></TextInput>
-            <Button onPress={handleAddTask}></Button>
+            <Button onPress={handleAddTask} title = "Add Todo"></Button>
         </View>
     );
 }
